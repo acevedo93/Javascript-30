@@ -1,0 +1,48 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>CssManipulate</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"> 
+</head>
+
+<body>
+    <div id ="container">
+       
+        <div class="general" id="general">
+                <p>Manipulate css variables with JS</p>
+            <div id="newcontrols">
+                <select name="addproperty" id="addproperty">
+                        <option value="width">width</option>
+                        <option value="padding">padding</option>
+                        <option value="height">height</option>
+                        <option value="padding">padding</option>
+                        <option value="margin-top">margin-top</option>
+                </select>
+                
+                <input type="text"  size=1 name="addmedida" id="addmedida">
+                <input type="button" name="addcontrol" id="addcontrol" value="addcontrol">
+            </div>
+            <div id="controls">
+            
+                    <label for="">Border</label>
+                    
+                    <input  name="slider" type="range" id="border" min="0" max="100" value='0' class="controls slider">
+                   
+                    <label for="">Blur</label>
+                   
+                    <input name="slider" type="range" id="blur" min="0" max="50" value='0' class="controls slider">
+                    
+                
+            </div>
+        </div>
+        <div class="image" id="image">
+            <img src="http://lorempixel.com/400/200/" alt="">
+        </div>    
+        
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>

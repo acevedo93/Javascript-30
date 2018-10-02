@@ -1,0 +1,45 @@
+ /* ++++++++++++++++++++++++++++++++++++++++++++
+ estilos css para drum pad
+  +++++++++++++++++++++++++++++++++*/
+
+  * {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    background: white
+    
+}
+
+
+.drumsContainer{
+    margin : 10vh auto;
+    width : 70%;
+    height: 500px;
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    border-radius: 10%;
+    
+}
+.item, .keyUp{
+    width:31%;
+    margin:2px;
+    background: rgb(44, 42, 42);
+    border: 1px solid rgb(138, 115, 115);
+    border-radius: 3%;
+    font-size: 30px;
+}
+.item:active , .keydown{
+    border:1px solid rgb(73, 73, 199);
+    background-color: #4B546A; background-image: -webkit-gradient(linear, left top, left bottom, from(#4B546A), to(#2C354B));
+    background-image: -webkit-linear-gradient(top, #4B546A, #2C354B);
+    background-image: -moz-linear-gradient(top, #4B546A, #2C354B);
+    background-image: -ms-linear-gradient(top, #4B546A, #2C354B);
+    background-image: -o-linear-gradient(top, #4B546A, #2C354B);
+    background-image: linear-gradient(to bottom, #4B546A, #2C354B);filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#4B546A, endColorstr=#2C354B);
+}
+.drumsContainer:nth-child(0){
+    border-radius: 10%;
+}
+
+
